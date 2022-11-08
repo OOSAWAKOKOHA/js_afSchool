@@ -1,0 +1,47 @@
+body{
+  margin: 0;
+  padding: 0;
+
+}
+
+.txtHall{
+  position: relative;
+  width: 100vw;
+  height: 90vh;
+  background-color: aquamarine;
+}
+
+.balloon{
+  position: absolute;
+  background-color: aliceblue;
+  width: 100px;
+  height: 50px;
+  
+}
+
+.bottom{
+  width: 100vw;
+  height: 10vh;
+  padding: 20px
+}
+
+input[type="text"]{
+  width: 65vw;
+  height: 5vh;
+  border: solid 1px gray;
+}
+
+.send{
+  width: 15vw;
+  height: 5vh;
+  background-color: cornflowerblue;
+
+}
+
+.clear{
+  width: 15vw;
+  height: 5vh;
+  background-color: gray;
+}
+
+
