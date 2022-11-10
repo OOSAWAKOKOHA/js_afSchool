@@ -11,12 +11,12 @@ body{
 }
 
 .balloon{
-  position: relative;
+  position: absolute;
   display: inline-block;
   width: 100px;
   height: 50px;
-  margin: 10px;
-  padding-top: 12px;
+  /* margin: 10px; */
+  /* padding-top: 12px; */
   text-align: center;
   border-radius: 30px;
   background: #e0edff;
