@@ -23,7 +23,7 @@ body{
   animation: zoom-in-anim 0.3s alternate;
 }
 
-@keyframes zoom-in-anim{
+/* @keyframes zoom-in-anim{
   0%{
     transform: scale(1);
   }
@@ -33,7 +33,7 @@ body{
   100%{
     transform: scale(1);
   }
-}
+} */
 
 .balloon::before{
   content: "";
