@@ -17,35 +17,26 @@ e/5 には ○
 ● ○
 */
 
-// console.log(reversi);
-
-// let arr = [];
-// for( let i = 0; i < 8; i++ ){
-  //   // arr[ i ] = i;
-  //   document.reversi.createElement('td');
-  
-  // }
-  // console.log( arr );
-  
-  // function addtd () {
-    //   const new = document.createElement('td');
-    // }
-    
-    // document.body.tbody = addtd;
-    
-    
-    
-    // let trAdd = reversi.tBodies[0].insertRow(-1);
-    // const tr = document.getElementsByTagName('tr');
-    
-    // let td = document.createElement('td');
-    // const createtr = document.createElement('tr');
-    
 const reversi = document.getElementById('reversi');
-console.log(reversi);
+const tbody = reversi.getElementsByTagName('tbody')[0];
+// const tbody = document.createElement('tbody');
+// const tr = document.createElement('tr');
+// const td = document.createElement('td');
 
-for( i = 0; i < 7; i++ ){
-  reversi.innerHTML += `<td></td>`;
+console.log(tbody);
+// console.log(tr);
+
+for( j = 1; j <= 8; i++ ){
+  tbody.innerHTML = `<tr></tr>`;
+  const tr = document.getElementsByTagName('tr')[0];
+  
+  for( i = 1; i <= 8; i++ ){
+    tr.innerHTML += `<td></td>`;
+  }
 }
+console.log(td);
 
+// tr.appendChild(td);
+// tbody.appendChild(tr);
+// reversi.appendChild(tbody);
 
